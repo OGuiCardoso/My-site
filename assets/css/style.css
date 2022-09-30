@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container-header{
+    height: 70pxpx;
+    background-color: rgba(222, 184, 135, 0.747);
+    display: flex;
+}
+.header-box{
+    width: 50%;
+    height: 70px;
+}
+#contact{
+    justify-content: end;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#logo{
+    margin-left: 40px;
+    margin-top: 35px;
+}
+#contact button{
+    height: 40px;
+    width: 150px;
+}
+.container-links{
+    background-color: rgba(222, 184, 135, 0.836);
+    height: 30px;
+    justify-content: center;
+    display: flex;
+}
+.container-links ul{
+    display: flex;
+}
+.container-links ul li{
+    width: 150px;
+    list-style: none;
+}
+.container-body{
+    height: 500px;
+
+}
+.container-footer{
+    height: 100px;
+    background-color:rgba(222, 184, 135, 0.747) ;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
