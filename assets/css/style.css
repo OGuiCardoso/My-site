@@ -11,7 +11,8 @@ html{
     position: fixed;
     width: 100%;
     height: 10rem;
-    background-color: darkgreen;
+    top: 0;
+    background-color: rgba(0, 100, 0, 0.527);
 }
 .header .logo{
     position: relative;
@@ -54,17 +55,75 @@ html{
 .header .container-links{
     position: relative;
     width: 100%;
-    height: 2rem;
-    top: 80%;
+    height: 4rem;
+    top: 60%;
     
 }
 .container-section1{
     height: 100vh;
-    padding-top: 20rem ;
-    background-color: rebeccapurple;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 15rem;
+    font-size: 1.6rem;
+    overflow: auto;
+
+}
+#empty{
+    height: 10rem;
 }
 .container-section2{
     height: 100vh;
-    padding-top: 20rem ;
+    font-size: 1.6rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5rem;
+    overflow: auto;
+    background-color: rgb(202, 125, 23);
 }
-
+.container-footer{
+    height: 15rem;
+    background-color:  rgba(0, 100, 0, 0.527);
+    text-align: center;
+    padding-top: 6rem;
+    font-size: 2rem;
+}
+.header .contact button{
+    background-color: white;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 12rem;
+}
+.header .contact button:hover{
+    background-color: rgba(0, 100, 0, 0.1);
+    color: white;
+    transition: 600ms;
+}
+@media (max-width: 768px){
+    .header .contact button{
+        height: 4rem;
+        width: 5rem;
+        font-size: 1rem;
+    }
+    .header .contact{
+        position: relative;
+        float: right;
+        top: 3rem;
+        right: 1rem;
+    }
+}
+@media (min-width: 320px) and (max-width: 671px){
+    .header .container-links ul li{
+        width: 15rem;
+        list-style-type: none;
+        text-align: center;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .header .logo{
+        left: 1rem;
+        top: 3rem;
+    }
+    .header .logo a{
+        font-size: 2rem;
+    }
+}
