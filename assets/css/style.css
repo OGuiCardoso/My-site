@@ -34,26 +34,37 @@ html{
     display: flex;
     position: absolute;
     width: 50%;
+    height: 100%;
     left: 25%;
     right: 25%;
     justify-content: center;
 
 }
+.header .container-links ul a{
+    color: white;
+    text-decoration: none;
+}
 .header .container-links ul li{
-    width: 7rem;
+    width: 15rem;
     list-style-type: none;
     text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
 .header .container-links{
     position: relative;
     width: 100%;
     height: 2rem;
-    background-color: red;
-    color: white;
     top: 80%;
     
 }
-.container-body{
-    height: 300vh;
+.container-section1{
+    height: 100vh;
+    padding-top: 20rem ;
+    background-color: rebeccapurple;
+}
+.container-section2{
+    height: 100vh;
+    padding-top: 20rem ;
 }
 
