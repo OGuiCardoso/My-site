@@ -126,4 +126,23 @@ html{
     .header .logo a{
         font-size: 2rem;
     }
+    .container-section1{
+        height: 100vh;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 15rem;
+        font-size: 1.6rem;
+        overflow: auto;
+    
+    }
+
+    .container-section2{
+        height: 100vh;
+        font-size: 1.6rem;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 5rem;
+        overflow: auto;
+        background-color: rgb(202, 125, 23);
+    }
 }
