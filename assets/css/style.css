@@ -100,8 +100,8 @@ html{
 }
 @media (max-width: 768px){
     .header .contact button{
-        height: 4rem;
-        width: 5rem;
+        height: 3rem;
+        width: 7rem;
         font-size: 1rem;
     }
     .header .contact{
@@ -111,7 +111,7 @@ html{
         right: 1rem;
     }
 }
-@media (min-width: 320px) and (max-width: 671px){
+@media (max-width: 671px){
     .header .container-links ul li{
         width: 15rem;
         list-style-type: none;
